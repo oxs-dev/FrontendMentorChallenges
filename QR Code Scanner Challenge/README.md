@@ -19,8 +19,8 @@ Frontend Mentor helps me by actually being hands on with code instead of the cyc
 ## Overview
 
   In this project we are tasked with creating a mock QR Code Component, the goal is to get this as similar to the provided solution.
-  While doing this project I am planning to focus on respoiveness, I want the QR Code Component to look good on all devices.
-  I hope to achieve this trough flexbox and trail and error, I have never used media querires and thinkg that
+  While doing this project I am planning to focus on responsiveness, I want the QR Code Component to look good on all devices.
+  I hope to achieve this through flexbox and trial and error, I have never used media querires and things like that
   incorporating them into this project while be beneficial.
 
 ## My process
@@ -35,11 +35,7 @@ Frontend Mentor helps me by actually being hands on with code instead of the cyc
 - Semantic HTML5 markup
 - CSS
 - Flexbox
-
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Media Queries
 
 ### Useful resources
 
