@@ -1,0 +1,222 @@
+body{
+
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+/** Style for main container. **/
+
+.main-container{
+
+
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.white-div-container{
+
+    margin-top: 18vh;
+
+    background-color: white;
+    width: 75vw;
+    height: 52vh;
+    border-radius: 3vw;
+
+}
+
+
+/** Style for QR Code container and image. **/
+
+.qr-image-container{
+
+    display: flex;  
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+
+.qr-code-image{
+
+    width: 67vw;
+    height: 25vh;
+    border-radius: 3vw;
+
+}
+
+
+/** Styles for both texts **/
+
+pre{
+
+    
+    font-size: 5vw;
+    text-align: center;
+    font-family: "Outfit", Times New Roman;
+    color: hsl(218, 44%, 22%);
+    font-weight: 900;
+
+}
+
+.under-first-text{
+
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: "Outfit", Times New Roman;
+    color: hsl(216, 15%, 48%);
+    font-weight: 500;
+
+}
+
+
+/** MEDIA QUERIES: **/
+
+/** Styles for anything that is a minimum of 840px **/
+@media screen and (min-width: 840px) {
+    
+
+    .white-div-container{
+
+        height: 60vh;
+        width: 70vw;
+
+    }
+
+    .qr-code-image{
+
+        width: 60vw;
+        height: 28vh;
+
+    }
+
+}
+
+/** Styles for anything that is a minmum of 1024px **/
+@media screen and (min-width: 1024px){
+
+    pre{
+
+        margin-top: 0vh;
+
+    }
+
+    .under-first-text{
+
+        margin-top: -1.5vh;
+
+    }
+
+}
+
+/** Styles for anything that is a minimum of 1256px **/
+
+@media screen and (min-width: 1256px){
+
+
+    .main-container{
+
+        margin-top: -10vh;
+
+    }
+
+    .white-div-container{
+
+        height: 85vh;
+
+    }
+
+    pre{
+
+        margin-top: 5vh;
+
+    }
+
+    .qr-code-image{
+
+        height: 40vh;
+
+    }
+
+
+}
+
+/** Styles for anything that is a minimum of 1576px **/
+@media screen and (min-width: 1576px){
+
+
+    .main-container{
+
+        margin-top: -10vh;
+
+    }
+
+    .white-div-container{
+
+        height: 85vh;
+        width: 65vw;
+
+    }
+
+    pre{
+
+        font-size: 4vw;
+        margin-top: 2vh;
+
+    }
+
+    .under-first-text{
+
+        font-size: 3vw;
+
+    }
+
+    .qr-code-image{
+
+        height: 40vh;
+        width: 55vw;
+
+    }
+
+
+}
+
+/** Styles for anything that is a minimum of 2044px **/
+@media screen and (min-width: 2044px){
+
+    .main-container{
+
+        margin-top: -13vh;
+
+    }
+
+    .white-div-container{
+
+        height: 90vh;
+        width: 50vw;
+
+    }
+
+    pre{
+
+        font-size: 3.5vw;
+        margin-top: 2vh;
+
+    }
+
+    .under-first-text{
+
+        font-size: 2.5vw;
+
+    }
+
+    .qr-code-image{
+
+        height: 40vh;
+        width: 40vw;
+
+    }
+
+
+}
